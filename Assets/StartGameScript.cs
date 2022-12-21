@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StartGameScript : MonoBehaviour
 {
+    
     public void NewGameButton(string scene){
         SceneManager.LoadScene(scene);
     }
