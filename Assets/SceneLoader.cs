@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartGameScript : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
-    
-
-    public void NewGameButton(){
+    public void LoadScene(){
         SceneManager.LoadScene("BasicMovementAndAnim");
     }
 }
